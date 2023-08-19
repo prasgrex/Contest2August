@@ -42,6 +42,7 @@ li{
 header{
     position:sticky;
     top:0px;
+    width: 95vw;
 }
 
 #tableheading,#formheading{
@@ -61,8 +62,15 @@ header{
     font-weight: 800px;
 }
 
+#tablecenter{
+    padding-left: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .nestedtable{
     text-align:justify;
+    border-collapse: collapse;
 }
 
 #Register{
