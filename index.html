@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contest2August</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+       <!-- 1st -> NAVBAR SECTION -->
+   <header>
+    <nav>
+       <ul class="navbar">
+         <li><a id="navtext" href="#Books">Books</a></li>
+         <li><a id="navtext" href="#Register">To Register</a></li>
+       </ul>
+    </nav>
+   </header>
+
+        <!-- 2nd -> TABLE SECTION -->
+   <section>
+    <h1 id="tableheading">BOOKS</h1>
+    <table id="Books" border="1px">
+
+         <thead>
+            <!-- Header Row -->
+            <th>BOOK ID</th>
+            <th>TITLE</th>
+            <th>AUTHOR</th>
+            <th>GENRE</th>
+            <th>AVAILABILITY</th>
+
+         </thead>
+
+         <tbody>
+            <!-- 1st ROW -->
+            <tr>
+                <td>1</td>
+                <td>
+                  <table class="nestedtable">
+
+                    <thead>
+                        <th><a id="BookTitle" href="https://en.wikipedia.org/wiki/Wings_of_Fire_(autobiography)">WINGS OF FIRE</a></th>
+                    </thead>
+
+                    <tbody>
+                    <tr>
+                        <td>Publication Date: 1999</td>
+                    </tr>
+                    <tr>
+                        <td>Page Count: 352</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN: 81-7371-146-1</td>
+                    </tr>
+                    </tbody>
+
+                  </table>
+                </td>
+                <td>Dr.A.P.J ABDUL KALAM</td>
+                <td>Auto Biography</td>
+                <td>Available</td>
+            </tr>
+
+            <!-- 2nd Row -->
+            <tr>
+                <td>2</td>
+                <td>
+                  <table class="nestedtable">
+
+                    <thead>
+                        <th><a id="BookTitle" href="https://en.wikipedia.org/wiki/Ponniyin_Selvan">PONNIYIN SELVAN</a></th>
+                    </thead>
+
+                    <tbody>
+                    <tr>
+                        <td>Publication Date: 1955</td>
+                    </tr>
+                    <tr>
+                        <td>Page Count: 2400</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN: 978-9357762823</td>
+                    </tr>
+                    </tbody>
+
+                  </table>
+                </td>
+                <td>KALKI KRISHNAMURTHY</td>
+                <td>Historical Fiction</td>
+                <td>Available</td>
+            </tr>
+
+            <!-- 3rd Row -->
+            <tr>
+                <td>3</td>
+                <td>
+                  <table class="nestedtable">
+
+                    <thead>
+                        <th><a id="BookTitle" href="https://en.wikipedia.org/wiki/Harry_Potter">HARRY POTTER</a></th>
+                    </thead>
+
+                    <tbody>
+                    <tr>
+                        <td>Publication Date: 1997</td>
+                    </tr>
+                    <tr>
+                        <td>Page Count: 3407</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN: 978-1338878929</td>
+                    </tr>
+                  </tbody>
+
+                  </table>
+                </td>
+                <td>J.K.ROWLING</td>
+                <td>Fantasy</td>
+                <td>Available</td>
+            </tr>
+
+            <!-- 4th Row -->
+            <tr>
+                <td>4</td>
+                <td>
+                  <table class="nestedtable">
+
+                    <thead>
+                        <th><a id="BookTitle" href="https://en.wikipedia.org/wiki/Bhagavad_Gita">BHAGAVAD GITA</a></th>
+                    </thead>
+
+                    <tbody>
+                    <tr>
+                        <td>Publication Date: 2nd Century BCE</td>
+                    </tr>
+                    <tr>
+                        <td>Page Count: 10360</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN: 978-9352581075</td>
+                    </tr>
+                    </tbody>
+
+                  </table>
+                </td>
+                <td>VYASA</td>
+                <td>History</td>
+                <td>AVAILABLE</td>
+            </tr>
+
+            <!-- 5th Row -->
+            <tr>
+                <td>5</td>
+                <td>
+                  <table class="nestedtable">
+
+                    <thead>
+                        <th><a id="BookTitle" href="https://en.wikipedia.org/wiki/A_Game_of_Thrones">GAME OF THRONES</a></th>
+                    </thead>
+
+                    <tbody>
+                    <tr>
+                        <td>Publication Date: 1996</td>
+                    </tr>
+                    <tr>
+                        <td>Page Count: 1184</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN: 9780007428540</td>
+                    </tr>
+                    </tbody>
+
+                  </table>
+                </td>
+                <td>GEORGE R R MARTIN</td>
+                <td>Fantasy</td>
+                <td>NOT AVAILABLE</td>
+            </tr>
+
+         </tbody>
+    </table>
+   </section>
+
+           <!-- 3rd FORM SECTION -->
+   <section>
+    <h1 id="formheading">REGISTER</h1>
+     <form id="Register" method="post">
+        
+        <br>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" placeholder="Enter your First Name" required/>
+        <br>
+
+        <br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" placeholder="Enter your Last Name" required/>
+        <br>
+
+        <br>
+        <label for="mail">Email</label>
+        <input type="email" id="mail" placeholder="Enter your Email here" required/>
+        <br>
+
+        <br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" required/>
+        <br>
+
+        <br>
+        <label for="age">AGE</label>
+        <input type="number" id="age" min="5" max="100" placeholder="Age" required/>
+        <br>
+
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your Password here" required/>
+        <br>
+        
+        <br>
+        <label for="confirmpassword">Confirm Password</label>
+        <input type="password" id="confirmpassword" placeholder="Conform your Password here" required/>
+        <br>
+
+        <br>
+        <button type="submit" id="formtext" value="submit" required>REGISTER</button>
+        <br>
+
+    </form>
+   </section>
+
+</body>
+</html>
+
+<!-- 
+    PROJECT REQUIRMENTS 
+
+    1. Design a Sticky Navigation Bar -> DONE
+    2. Create a Table of Books -> DONE
+    3. Design a Registration Form -> DONE
+    4. Overall Design and Creativity -> DONE
+
+    WEBPAGE DEPLOYED WITH COHESIVE DESIGN AND 
+    DIFFERENTS FONT'S LIKE "INTER" "ROBOTO" & 
+    POPPINS ARE USED FROM USING GOOGLE RESOURCE
+    HOVER, BACKGROUND IMAGE, FLEX DESIGN ARE ALSO 
+    DEPLOYED
+-->

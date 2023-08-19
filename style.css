@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    padding-inline: 25px;
+}
+
+#navtext{
+    text-decoration: none; 
+    text-decoration-style: none;
+    color: white;
+}
+
+#navtext:hover{
+    background-color: #012555;
+    color: #2F80EC;
+    cursor: pointer;
+    scroll-behavior: smooth;
+}
+
+li{
+    list-style-type: none;
+    margin: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#BookTitle{
+    text-decoration: none;
+    color:coral;
+}
+
+.navbar{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    background-color: #04AA6D;
+    color: rgb(255, 255, 255);
+}
+
+header{
+    position:sticky;
+    top:0px;
+}
+
+#tableheading,#formheading{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bolder;
+    font-size: 50px;
+    color: #9763f6;
+}
+
+#Books{
+    width:95vw;
+    text-align: center;
+    border-collapse: collapse;
+    background-image: url(./srcimg/Image1.png);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800px;
+}
+
+.nestedtable{
+    text-align:justify;
+}
+
+#Register{
+    width:95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-image: url(./srcimg/Image1.png);
+    
+}
+
+#formtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    background-color: chocolate;
+    color: bisque;
+}
